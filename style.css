@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eeeeee;
+}
+
+header {
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;  
+    padding-left: 5px;
+    background-color: #8f0000;
+}
+
+header h3 {            
+    color: white;    
+}
+
+aside {
+    float: left;    
+    vertical-align: top;          
+    padding-left: 5px;
+}
+
+aside ul li {
+    list-style-type: disc;
+    margin-left: 30px;
+    padding-right: 5px;
+}
+
+aside ul li a {
+    padding-left: 3px;
+    font-weight: bold;
+}
+
+section {
+    float: left;
+    margin-bottom: 8px;
+    padding-left: 10px;
+    border-left: 3px solid;    
+}
+
+section p {
+    font-weight: bold;
+}
+
+section > p {    
+    margin-bottom: 5px;
+}
+
+section article > div {
+    float: left; 
+    margin-bottom: 3px;
+    margin-right: 5px; 
+    padding: 5px;
+    border: 1px solid #8f0000;
+}
+
+footer {    
+    clear: both;            
+    padding-top: 5px;
+    padding-bottom: 5px;  
+    padding-left: 5px;   
+    font-weight: bold;
+    color: white;
+    background-color: #8f0000;
+}
